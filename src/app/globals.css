@@ -32,7 +32,7 @@
   --font5: "Courgette", cursive;
 }
 
-.dark-mode {
+body {
   background-color: #212529;
   color: #bbc2ce;
 }

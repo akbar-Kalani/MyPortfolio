@@ -1,12 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 import styles from "./style.css";
 import Navigation from "./menu/menu";
 import { SocialLinks } from "../socialmedia/socialmedia";
 import Darkmode from "./darkMode/darkmode";
 import NavigationMenu from "./menu/menu";
-export const Aside = ({ setIsDarkMode, isDarkMode }) => {
+ const Aside = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAside = () => {
@@ -48,7 +47,7 @@ export const Aside = ({ setIsDarkMode, isDarkMode }) => {
           className={`w-[400px] ${styles.sidebar} ${isOpen ? styles.open : ""}`}
         >
           <div className="bg-[#2EBF70] tapBox h-[170px]">
-             <Darkmode setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode}/>
+           
           </div>
           <figure className=" rounded-[50%] profileImg flex justify-center flex-wrap">
             <img
@@ -70,3 +69,4 @@ export const Aside = ({ setIsDarkMode, isDarkMode }) => {
     </section>
   );
 };
+export default Aside

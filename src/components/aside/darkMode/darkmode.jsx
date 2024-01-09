@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import { MdDarkMode } from "react-icons/md";
 import { CiLight } from "react-icons/ci";
 
@@ -19,3 +19,4 @@ const Darkmode = ( { setIsDarkMode, isDarkMode}) => {
 }
 
 export default Darkmode
+ */
