@@ -18,8 +18,8 @@ function Contact() {
             <span className="underline relative flex"></span>
           </h3>
         </div>
-        <section className="flex justify-center">
-          <div className="lg:w-1/3 bg-[#000000] p-6 rounded-lg shadow-lg">
+        <section className="flex flex-wrap justify-center">
+          <div className=" w-full md:w-1/4 m-3 bg-[#000000] p-6 rounded-lg shadow-lg">
             <div className="mb-6">
               <h3 className="text-2xl font-semibold">
                 What's your story? Get in touch
@@ -51,7 +51,7 @@ function Contact() {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-2/3  bg-[#000000] p-6 rounded-lg ml-4 shadow-lg">
+          <div className="w-full md:w-2/3 m-3 bg-[#000000] p-6 rounded-lg shadow-lg">
             <div className="mb-4">
               <h4 className="text-2xl font-semibold">Say Something</h4>
             </div>

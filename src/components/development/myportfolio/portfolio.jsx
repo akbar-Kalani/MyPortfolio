@@ -4,10 +4,10 @@ import Head from 'next/head';
  import styles from '@/components/development/myportfolio/filter.module.css'
 import Link from 'next/link';
 const projects = [
-  { url: 'https://adminpanel1-jgeku9tpi-m-akbar12.vercel.app/', 
+  { url: 'https://adminpanel1.vercel.app/', 
   imgSrc: '/adminpanel.png',
    title: 'Admin panel' },
-  { url: 'https://todo-list-nx191vub9-m-akbar12.vercel.app/', 
+  { url: 'https://todo-list-wheat-xi.vercel.app/', 
   imgSrc: '/todo.png',
    title: 'Todo List' },
   { url: 'https://akbarmkalani.github.io/weather-api/', 
