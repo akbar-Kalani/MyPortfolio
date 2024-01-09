@@ -1,0 +1,29 @@
+.imgCover{
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+    transition: .4s ease-in-out;
+ }
+
+
+.imgCover:hover{
+   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(0%);
+}
+.caption {
+   transform: translateY(75%);
+   transition: .4s ease-in-out
+}
+.description{
+  /*  transform: translateY(130%); */
+   opacity: 0;
+    transition: .4s ease-in-out
+}
+
+.figure:hover .description{
+    opacity: 1;
+/*    transform: translateY(0%); */
+}
+.figure:hover .caption{
+   
+   transform: translateX(0%);
+}

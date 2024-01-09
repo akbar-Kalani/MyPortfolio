@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&family=Readex+Pro:wght@300&display=swap');
+
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Libre+Baskerville:ital@1&family=Montserrat:ital@1&family=Playfair+Display:ital,wght@0,900;1,900&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Libre+Baskerville:ital@1&family=Montserrat:ital@1&family=Playfair+Display:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,400;1,900&display=swap");
+
+/* * {
+  font-family: "Courgette", cursive;
+  font-family: "Kalam", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family:
+} */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --font1: "Roboto", sans-serif;
+  --font3: "Playfair Display", serif;
+  --font2: "Libre Baskerville", serif;
+  --font4: "Kalam", cursive;
+  --font5: "Courgette", cursive;
+}
+
+.dark-mode {
+  background-color: #212529;
+  color: #bbc2ce;
+}
+
+
+.aside {
+  transition: .4s !important;
+}
+
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+
+.proflietext {
+  font-family: 'Noto Naskh Arabic', serif;
+  /*   font-family: 'Readex Pro', sans-serif; */
+  text-transform: uppercase;
+}
+
+.allBtn {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  transition: 0.4s;
+
+}
+
+.allBtn>span {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  bottom: -5px;
+  right: -5px;
+  transition: 0.4s;
+}
+
+.homepage {
+  width: calc(100% - 400px) !important;
+  height: auto;
+  margin-top: 100px;
+}
+
+
+.allBtn:hover> {
+  background-color: white !important;
+  color: #2FBF71 !important;
+}
+
+.allBtn:hover>span {
+  border-color: #2FBF71;
+}
+
+.underline {
+  width: 100px;
+  height: 2px;
+  background-color: #2FBF71;
+  margin-top: 10px;
+
+}
+
+.underline::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #2FBF71;
+  border-radius: 50%;
+  top: 50%;
+  right: 0;
+  transform: translate(-0%, -50%);
+}
+
+.fontSkill {
+  /* font-family: var(--font2);  */
+  font-family: 'Playfair Display', serif;
+}
+  .portfolioImg{
+    box-shadow: 0 0 20px #00000080;
+  }
+ 
+.skill span {
+  font-size: 13px;
+  position: relative;
+}
+
+.skill span::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  border-top: 5px solid #165934;
+  border-left: 5px solid transparent;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .homepage {
+    width: calc(100% - 0px) !important;
+  }
+
+}

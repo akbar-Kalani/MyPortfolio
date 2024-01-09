@@ -1,0 +1,35 @@
+
+
+
+
+.tapBox{
+     border-bottom-right-radius: 50%;
+     border-bottom-left-radius: 50%;
+}
+
+.profileImg{
+    transform: translateY(-60px);
+
+}
+
+.profileImg>img{
+    outline: 6px solid white;
+}
+
+
+
+/* components/Sidebar.module.css */
+.sidebar {
+    width: 450px !important;
+    
+    top: 0;
+    left: -250px;
+    background-color: #333 !important;
+    transition: left 3s ease-in-out;
+  }
+  
+  .open {
+    left: 0;
+  }
+  
+
