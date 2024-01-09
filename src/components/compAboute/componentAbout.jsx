@@ -15,7 +15,7 @@ const ComponentAbout = () => {
           />
         </figure>
         <section className="w-full md:w-2/5 ">
-          <h1 className="text-3xl my-6 font-bold">ABOUT ME. <span className="underline relative flex"></span></h1>
+          <h1 className="text-3xl my-6 font-bold proflietext uppercase">ABOUT ME. <span className="underline relative flex"></span></h1>
           <h2 className="text-3xl mt-2 lineUnder">I'm a Freelancer Front-end Developer</h2>
           <p className="mt-5">
             I'm a Freelancer Front-end Developer.I'm from Afghanistan. I code

@@ -23,7 +23,7 @@ const WhatIDo = () => {
 return (
   <div className=" px-10 pt-4 homepage">
     <section className="">
-      <h3 className="font-bold text-4xl">WHAT I DO?
+      <h3 className="font-bold text-4xl proflietext uppercase">WHAT I DO?
       <span className="underline relative flex"></span>
       </h3>
     </section>

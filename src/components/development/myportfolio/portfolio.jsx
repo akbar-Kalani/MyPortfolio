@@ -29,7 +29,7 @@ const Portfolio = () => {
     <div className="w-full portfolio mt-[-50px]  py-5 px-4 bg-danger homepage" id="portfolio">
     
       <div className=" col-12 px-3">
-        <h3 className="text-light text-4xl font-bold">
+        <h3 className="text-light proflietext uppercase text-4xl font-bold">
         MY PORTFOLIO.
           <span className="underline relative flex"></span>
         </h3>

@@ -6,7 +6,7 @@ const ExperienceSection = () => {
   return (
     <div className='homepage pb-10'>
       <section className=" px-10 border-b-2 col-span-12 py-4 ">
-        <h3 className="text-white font-bold text-4xl px-4">
+        <h3 className="text-white proflietext uppercase font-bold text-4xl px-4">
           EXPERIENCE.
           <span className="underline flex relative"></span>
         </h3>

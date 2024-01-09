@@ -10,7 +10,7 @@ const Homeproflie = ( ) => {
         <span className="  font-semibold my-3 flex">Hello, I am</span>
         <h1 className="text-4xl font-bold proflietext uppercase">
           {" "}
-          Akbar Kalani
+          Akbar Mohammadi
         </h1>
         <h3 className="flex ">
           <span className="ityped my-3  text-success flex items-center ">  I am Passionatem <TypingAnimation/> </span>

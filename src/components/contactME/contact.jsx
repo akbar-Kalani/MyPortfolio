@@ -13,7 +13,7 @@ function Contact() {
     <section className="py-8 px-6 homepage">
       <div className="container mx-auto">
         <div className="py-5">
-          <h3 className="text-2xl font-semibold" id="contact">
+          <h3 className="text-2xl proflietext uppercase font-semibold" id="contact">
             GET IN TOUCH ME.
             <span className="underline relative flex"></span>
           </h3>

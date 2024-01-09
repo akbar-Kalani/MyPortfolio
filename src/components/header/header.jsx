@@ -59,7 +59,7 @@ const Header = ({  }) => {
         
         <div className='flex items-center justify-between font-bold f '>
         <button  onClick={toggleAside}><GiHamburgerMenu/> </button>
-         <h2>AKBAR KALANI</h2>
+         <h2>AKBAR Mohammadi</h2>
         </div>
 
       {isOpen

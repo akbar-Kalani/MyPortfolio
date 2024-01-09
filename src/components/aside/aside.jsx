@@ -56,9 +56,9 @@ import NavigationMenu from "./menu/menu";
               className="w-[100px]   rounded-[50%] h-[100px]"
             />
             <figcaption className="w-full">
-              <h1 className="text-center font-extrabold mt-3 text-2xl">
+              <h1 className="text-center  proflietext uppercase font-extrabold mt-3 text-2xl">
                 {" "}
-                Akbar Kalani{" "}
+                Akbar Mohammadi{" "}
               </h1>
             </figcaption>
           </figure>
