@@ -13,7 +13,7 @@ const Homeproflie = ( ) => {
           Akbar Mohammadi
         </h1>
         <h3 className="flex ">
-          <span className="ityped my-3  text-success flex items-center ">  I am Passionatem <TypingAnimation/> </span>
+          <span className="ityped my-3  text-success flex items-center ">  I am Passionatem  <TypingAnimation/> </span>
         </h3>
       
         <p className="my-3">

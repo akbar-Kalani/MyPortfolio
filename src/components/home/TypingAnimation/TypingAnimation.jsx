@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const TypingAnimation = () => {
   const [text, setText] = useState('');
-  const phrases = ['I love programming!', 'Freelancer', 'Developer!'];
+  const phrases = [' I love programming!', 'Freelancer', 'Developer!'];
   const typingDelay = 100; // Delay between each character typing
   const erasingDelay = 50; // Delay between each character erasing
   const newTextDelay = 2000; // Delay before typing the next phrase
@@ -49,7 +49,7 @@ const TypingAnimation = () => {
 
   return (
     <div>
-      <h4>I am Passionate <span className="ityped text-success">{text}</span></h4>
+      <h4> I am Passionate <span className="ityped text-success">{text}</span></h4>
       
     </div>
   );
